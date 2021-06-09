@@ -1,0 +1,7 @@
+Trop de fonctions getJeux.. dans fonction
+A optimiser
+
+case "ChoixJeux" :
+$nojeux = $REQUEST['nojeu']
+$leslignes = $Pdo->getJeux()
+include ...

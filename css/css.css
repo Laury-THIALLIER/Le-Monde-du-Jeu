@@ -1,0 +1,166 @@
+.over {
+    color: black;
+    transition-duration: 0.3s;
+}
+
+.over:hover {
+    color: grey;
+}
+
+.container {
+  justify-content: center;
+}
+
+.card {
+  font-family: 'Comic Neue';
+  transition: all 0.3s;
+  margin-bottom: 30px;
+}
+
+.card:hover {
+  box-shadow: 0 0 7px lightgrey;
+}
+
+* {
+  font-family: 'Comic Neue';
+  font-weight: bold;
+}
+
+body, h1, h2, h3, h4 {
+  overflow:hidden;
+  letter-spacing: 1px;
+}
+
+.mar {
+  margin-top: 1em;
+  padding-left: 1em;
+}
+
+.marg {
+  margin-right: 60px;
+}
+
+.margi {
+  margin: 0px 0px 30px 30px;
+}
+
+.scroll {
+  overflow: visible;
+}
+
+.fond {
+  margin-top: 30px;
+  padding: 3em;
+}
+
+/*.max {
+  max-width: auto;
+  max-height: 100%;
+}*/
+
+.video {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    padding-top: 0px;
+    height: 0;
+    box-sizing: border-box;
+}
+.video iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.checked, .prix span {
+  color: #ff9f1a;
+}
+
+/* a.navbar-brand {
+  margin-right: 8%;
+  padding-top: 5px;
+} */
+
+a {
+  color: black!important;
+}
+
+nav li a {
+  transition: all 0.5s;
+}
+nav li a:hover {
+  background-color: darkgrey;
+  color: white!important;
+}
+
+.effet {
+  transition-duration: 0.5s;
+}
+
+.effet:hover {
+  transform: scale(1.05);
+}
+
+/*div, .navbar {
+  border-color: black;
+  border: solid;
+}*/
+
+.centre-vertical {
+  margin-top: 50vh;
+  transform: translateY(-55%);
+}
+
+.centre-vertical1 {
+  margin-top: 50vh;
+  transform: translateY(-80%);
+}
+
+.centre-vertical2 {
+  align-items: center;
+}
+
+.modal-lg {
+  max-width: 300px !important;
+}
+
+.rainbow-text {
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);   -webkit-background-clip: text;
+  color: transparent;
+}
+
+.logo {
+  width: 115px;
+}
+
+  /*------ Media Queries ------*/
+
+@media screen and (min-width: 1920px)
+{
+    .queries-nom {
+      font-size: 50px;
+      margin-top: 10px;
+    }
+    .queries-star {
+      font-size: 25px;
+    }
+    .queries-prix {
+      font-size: 35px;
+    }
+    .queries-detail {
+      font-size: 25px;
+      margin-bottom: 30px;
+    }
+    .embed-responsive {
+      margin-top: 30px;
+    }
+    .nav-link {
+      font-size: 20px;
+      margin-left: 15px;
+      margin-right: 15px;
+    }
+    .logo {
+      width: 150px;
+    }
+}
